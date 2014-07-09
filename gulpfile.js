@@ -13,6 +13,7 @@ var paths = {
   partials: 'src/templates/partials/**/*.haml',
   layouts: 'src/templates/layouts/*.haml',
   images: 'src/images/**/*',
+  data: 'src/data/**/*.json',
   fonts: 'src/fonts/**/*.{eot,svg,ttf,woff}',
 };
 
@@ -51,6 +52,7 @@ gulp.task('assemble', ['assemble:partials', 'assemble:layouts'], function() {
     .pipe($.assemble({
       partials: path.join(paths.tmp, 'partials', '**/*.html'),
       layoutdir: path.join(paths.tmp, 'layouts'),
+      data: paths.data,
       layout: 'default',
       layoutext: '.html',
     }))
