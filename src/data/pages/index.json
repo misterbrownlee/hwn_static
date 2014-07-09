@@ -1,3 +1,12 @@
 {
-  "title": "Welcome! - Health Wellnews - Home"
+  "title": "Welcome! - Health Wellnews - Home",
+  "hero": {
+    "img": {
+      "src": "../../images/home/home-hero-bg.jpg"
+    }
+  },
+  "greeting": {
+    "title": "Welcome!",
+    "message": "Ethical 90's typewriter, Shoreditch single-origin coffee selfies freegan dreamcatcher forage church-key literally. Banh mi fap lomo Brooklyn, actually trust fund single-origin coffee Williamsburg pop-up tote bag.  Swag try-hard cornhole 8-bit banh mi scenester."
+  }
 }
