@@ -1,10 +1,12 @@
 /*# sourceMappingURL=../../.tmp/stylesheets/site.css.map */
 
 // Reset
-@import "CSS:normalize-css/normalize";
+@import "foundation/scss/normalize";
 
 // Base
+@import "base/settings";
 @import "base/base";
+
 
 // Theme
 @import "theme/layout";

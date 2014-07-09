@@ -5,3 +5,17 @@
   background-position: 50% 50%;
   color: #FFF;
 }
+
+.landing-greeting-title {
+  color: #FFF;
+}
+
+@media #{$medium-up} {
+  .main-hero {
+    height: rem-calc(400);
+  }
+
+  .landing-greeting-container {
+    margin-top: rem-calc(100);
+  }
+}
