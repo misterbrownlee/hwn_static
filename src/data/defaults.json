@@ -1,0 +1,12 @@
+{
+  "logo": {
+    "img": {
+      "src": "images/logo_clear.svg",
+      "alt": "Heath Wellnews Logo"
+    },
+    "link": {
+      "href": "index.html",
+      "title": "Heath Wellnews Home"
+    }
+  }
+}
