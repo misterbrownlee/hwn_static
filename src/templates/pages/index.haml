@@ -1,5 +1,7 @@
-.main-hero.row
-  .landing-greeting-container.small-10.small-centered.medium-6.columns
-    %h1.landing-greeting-title  {{greeting.title}}
-    %p.landing-greetting-message
+.main-hero
+  .landing-greeting-container
+    %h1.landing-greeting-title.hero-text  {{greeting.title}}
+    %p.landing-greeting-message.hero-text
       {{greeting.message}}
+    %p.hero-attribution.hero-text
+      {{greeting.hero.attribution}}

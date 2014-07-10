@@ -2,11 +2,11 @@
   "logo": {
     "img": {
       "src": "images/logo_clear.svg",
-      "alt": "Heath Wellnews Logo"
+      "alt": "Health Wellnews Logo"
     },
     "link": {
       "href": "index.html",
-      "title": "Heath Wellnews Home"
+      "title": "Health Wellnews Home"
     }
   }
 }
