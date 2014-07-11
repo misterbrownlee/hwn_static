@@ -1,0 +1,33 @@
+
+.top-nav {
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: rem-calc(12 8);
+  max-width: $row-width;
+
+}
+
+.top-nav-item {
+  font-size: rem-calc(14);
+  text-transform: uppercase;
+  color: #666;
+  margin-left: rem-calc(12);
+
+  &:hover {
+    color: #058BBC
+  }
+
+  // @media #{$medium-up} {
+  //   margin-left: rem-calc(18);
+  // }
+}
+
+.top-nav-item--login {
+  display: none;
+
+  @media #{$medium-up} {
+    display: inline-block;
+    float: right;
+    margin-right: rem-calc(20);
+  }
+}

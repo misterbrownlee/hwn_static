@@ -1,5 +1,7 @@
 %header.default-header
-  %nav.top-nav
-    .navItem this is the nav
+  %nav.top-nav(aria-role="navigation")
+    {{#each top-nav-items}}
+    %a(class="top-nav-item nav-item--{{@index}} {{classes}}")  {{text}}
+    {{/each}}
   %a.header-logo(href="{{logo.link.href}}" title="logo.link.title")
     %img.header-logo-img(src="{{logo.img.src}}" alt="{{logo.img.alt}}")

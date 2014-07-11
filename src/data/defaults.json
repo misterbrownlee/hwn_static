@@ -8,5 +8,32 @@
       "href": "index.html",
       "title": "Health Wellnews Home"
     }
-  }
+  },
+  "top-nav-items": [
+    {
+      "id": "features-nav-link",
+      "href": "features.html",
+      "title": "Features",
+      "text": "Features"
+    },
+    {
+      "id": "pricing-nav-link",
+      "href": "pricing.html",
+      "title": "Pricing",
+      "text": "Pricing"
+    },
+    {
+      "id": "buy-nav-link",
+      "href": "register.html",
+      "title": "Sign Up",
+      "text": "Sign Up"
+    },
+    {
+      "id": "login-nav-link",
+      "href": "login.html",
+      "title": "Login",
+      "text": "Log In",
+      "classes": "top-nav-item--login"
+    }
+  ]
 }
