@@ -1,0 +1,19 @@
+.landing-callout {
+  border-bottom: 1px solid #CCC;
+  margin-bottom: rem-calc(14);
+  @media #{$large-up} {
+    border: 1px solid #CCC;
+    border-radius: 3px;
+  }
+}
+
+.callout-title {
+  width: 100%;
+  text-align: center;
+}
+
+.callout-text {
+  width: 100%;
+  text-align: center;
+}
+

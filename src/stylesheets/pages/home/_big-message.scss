@@ -1,0 +1,17 @@
+
+.landing-big-message-text {
+  margin-top: rem-calc(20);
+  padding: 0 rem-calc(10);
+  width: 100%;
+  text-align: center;
+  font-size: rem-calc(50);
+  @media #{$medium-up} {
+    font-size: rem-calc(60);
+  }
+
+  @media #{$large-up} {
+    font-size: rem-calc(65);
+    margin-left: 5%;
+    text-align: left;
+  }
+}

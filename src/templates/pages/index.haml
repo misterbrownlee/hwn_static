@@ -12,14 +12,24 @@
     %a.action-link.button.round(href='{{call-to-action.link.href}}') {{call-to-action.link.text}}
 
 %section.about-features-container.row
-  .about-content.small-13.small-centered.medium-7.medium-offset-1.medium-uncentered.columns
+  .about-content.small-18.small-centered.medium-10.medium-offset-1.medium-uncentered.large-12.columns
     %h2.about-heading {{{about.heading}}}
     %p.about-text {{about.text}}
-  .features-list.small-12.small-centered.medium-5.medium-offset-1.medium-uncentered.columns
+  .features-list.small-10.small-centered.medium-6.medium-offset-1.medium-uncentered.large-4.columns
     %h2.features-list-heading
       {{features.heading}}
     %ul.features-list-items
       {{#each features.items}}
       %li {{text}}
       {{/each}}
+
+%section.landing-big-message.row
+  %h1.landing-big-message-text {{big-message.text}}
+
+%section.landing-callout-boxes.row
+  {{#each callouts}}
+  .landing-callout.callout-box.small-12.small-centered.large-5.large-uncentered.large-offset-1.columns(class='callout-{{@index}}')
+    %h2.callout-title {{title}}
+    %p.callout-text {{text}}
+  {{/each}}
 

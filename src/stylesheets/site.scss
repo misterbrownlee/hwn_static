@@ -17,6 +17,8 @@
 @import "modules/header";
 @import "modules/top-nav";
 
-// Pages
-@import "pages/home/_hero";
-@import "pages/home/_about";
+// Home Page
+@import "pages/home/hero";
+@import "pages/home/about";
+@import "pages/home/big-message";
+@import "pages/home/callout";
