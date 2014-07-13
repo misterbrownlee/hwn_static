@@ -1,7 +1,19 @@
 .main-hero
   .landing-greeting-container
-    %h1.landing-greeting-title.hero-text  {{greeting.title}}
+    %h1.landing-greeting-title.hero-text  {{{greeting.title}}}
     %p.landing-greeting-message.hero-text
       {{greeting.message}}
     %p.hero-attribution.hero-text
       {{greeting.hero.attribution}}
+%section.about-features-container.row
+  .about-content.small-13.small-centered.medium-7.medium-offset-1.medium-uncentered.columns
+    %h2.about-heading {{{about.heading}}}
+    %p.about-text {{about.text}}
+  .features-list.small-12.small-centered.medium-5.medium-offset-1.medium-uncentered.columns
+    %h2.features-list-heading
+      {{features.heading}}
+    %ul.features-list-items
+      {{#each features.items}}
+      %li {{text}}
+      {{/each}}
+

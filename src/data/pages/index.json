@@ -6,7 +6,31 @@
     }
   },
   "greeting": {
-    "title": "Welcome to Health Wellnews!",
+    "title": "Welcome to Health&nbsp;Wellnews!",
     "message": "Ethical 90's typewriter, Shoreditch single-origin coffee selfies freegan dreamcatcher forage church-key literally. Banh mi fap lomo Brooklyn, actually trust fund single-origin coffee Williamsburg pop-up tote bag.  Swag try-hard cornhole 8-bit banh mi scenester."
+  },
+  "about": {
+    "heading": "What is Health&nbsp;Wellnews?",
+    "text": "Crucifix mixtape authentic Intelligentsia 3 wolf moon, direct trade ennui sustainable.  Semiotics chambray iPhone, organic drinking vinegar irony mumblecore viral stumptown locavore letterpress readymade Intelligentsia occupy trust fund.  Hoodie Brooklyn cardigan pop-up.  Cosby sweater occupy American Apparel YOLO, Austin Shoreditch artisan jean shorts Neutra freegan before they sold out raw denim polaroid street art.  Scenester locavore viral wolf.  Bushwick American Apparel kale chips fashion axe."
+  },
+  "features": {
+    "heading": "Features",
+    "items": [
+      {
+        "text": "This is great."
+      },
+      {
+        "text": "You need it."
+      },
+      {
+        "text": "It will really help you."
+      },
+      {
+        "text": "Other's love it as well."
+      },
+      {
+        "text": "It's well worth the money."
+      }
+    ]
   }
 }

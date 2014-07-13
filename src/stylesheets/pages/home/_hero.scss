@@ -1,5 +1,4 @@
 .main-hero {
-  @include clearfix();
   background-color: #FFF;
   background-image: url('../images/home/home-hero-bg.jpg');
   background-repeat: no-repeat;
@@ -7,12 +6,17 @@
   background-position: 50% 50%;
   color: #FFF;
   // box-shadow: inset 0px 0px 100px 50px rgba(0, 0, 0, 0.7);
+  @include clearfix();
 }
 
 .hero-text {
   color: #FFF;
   text-shadow: rgba(0, 0, 0, 0.247059) 0px 0px 20px, rgba(255, 255, 255, 0.121569) 0px -0.7776000499725342px 0px, rgba(0, 0, 0, 0.247059) 0px 0.7776000499725342px 0px;
   text-align: center;
+}
+
+.landing-greeting-container {
+  margin-top: rem-calc(15);
 }
 
 .landing-greeting-title {
@@ -33,11 +37,14 @@
 
 @media #{$medium-up} {
   .main-hero {
-    height: rem-calc(400);
+    min-height: rem-calc(300);
   }
 
   .landing-greeting-container {
-    margin-top: rem-calc(75);
+    margin-top: rem-calc(25);
+    // margin-left: rem-calc(55);
+    // width: 55%;
+    // float: left;
   }
 
   .landing-greeting-message {
