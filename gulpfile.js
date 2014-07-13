@@ -69,7 +69,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch([paths.pages, paths.partials, paths.layouts], ['assemble']);
+  gulp.watch([paths.pages, paths.partials, paths.layouts, paths.data], ['assemble']);
   gulp.watch([paths.stylesheets], ['sass']);
 });
 
