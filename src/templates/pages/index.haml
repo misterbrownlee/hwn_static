@@ -5,6 +5,12 @@
       {{greeting.message}}
     %p.hero-attribution.hero-text
       {{greeting.hero.attribution}}
+
+  .landing-action-container
+    %p.action-text
+      {{call-to-action.text}}
+    %a.action-link.button.round(href='{{call-to-action.link.href}}') {{call-to-action.link.text}}
+
 %section.about-features-container.row
   .about-content.small-13.small-centered.medium-7.medium-offset-1.medium-uncentered.columns
     %h2.about-heading {{{about.heading}}}

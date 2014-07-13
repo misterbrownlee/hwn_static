@@ -5,6 +5,13 @@
       "src": "../../images/home/home-hero-bg.jpg"
     }
   },
+  "call-to-action": {
+      "text": "Are you ready to join us?",
+      "link": {
+        "text": "Get Started!",
+        "href": "register.html"
+      }
+    },
   "greeting": {
     "title": "Welcome to Health&nbsp;Wellnews!",
     "message": "Ethical 90's typewriter, Shoreditch single-origin coffee selfies freegan dreamcatcher forage church-key literally. Banh mi fap lomo Brooklyn, actually trust fund single-origin coffee Williamsburg pop-up tote bag.  Swag try-hard cornhole 8-bit banh mi scenester."
