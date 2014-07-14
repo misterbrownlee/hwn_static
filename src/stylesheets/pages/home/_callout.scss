@@ -1,9 +1,8 @@
-.landing-callout {
-  border-bottom: 1px solid #CCC;
-  margin-bottom: rem-calc(14);
+
+.callout-box {
+  padding: rem-calc(25 0);
   @media #{$large-up} {
-    border: 1px solid #CCC;
-    border-radius: 3px;
+    min-height: rem-calc(215);
   }
 }
 
@@ -13,7 +12,36 @@
 }
 
 .callout-text {
+  margin: 0;
+  padding: rem-calc(0 35);
   width: 100%;
   text-align: center;
+  @media #{$medium-only} {
+    padding: rem-calc(25 200);
+  }
 }
+
+.landing-callout {
+  background-color: rgb(230, 230, 230);
+  border-bottom: 3px solid #FFF;
+}
+
+@media #{$large-up} {
+  .callout-1 {
+    border-left: 3px solid #FFF;
+    border-right: 3px solid #FFF;
+  }
+}
+
+// .callout-0 {
+//   background-color: rgb(200, 230, 193);
+// }
+
+// .callout-1 {
+//   background-color: rgb(197, 241, 255);
+// }
+
+// .callout-2 {
+//   background-color: rgb(255, 210, 153)
+// }
 
