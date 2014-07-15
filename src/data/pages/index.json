@@ -56,5 +56,13 @@
       "title": "Expand Your Practice",
       "text": "Banh mi fap lomo Brooklyn, actually trust fund single-origin coffee Williamsburg pop-up tote bag.  Swag try-hard cornhole 8-bit banh mi scenester."
     }
-  ]
+  ],
+  "sign-up-full-width": {
+    "title": "Let's do this.",
+    "text": "Trust fund single-origin coffee Williamsburg pop-up tote bag.  Swag try-hard.  Direct trade ennui sustainable.  Semiotics chambray iPhone.",
+    "link": {
+      "text": "Register Now",
+      "href": "register.html"
+    }
+  }
 }

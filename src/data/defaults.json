@@ -35,5 +35,8 @@
       "text": "Log In",
       "classes": "top-nav-item--login"
     }
-  ]
+  ],
+  "footer": {
+    "copyright-text": "Copyright 2014 Wellnews Media, LLC"
+  }
 }
