@@ -1,0 +1,23 @@
+
+.footer-container {
+  margin-top: rem-calc(35);
+  margin-bottom: 10px;
+  padding: rem-calc(0 30);
+  padding-top: rem-calc(12);
+  border-top: 1px solid #CCC;
+  color: #666;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+}
+
+
+.footer-copyright-text {
+  font-size: rem-calc(12);
+  float: right;
+}
+
+
+.footer-logo-img {
+  float: left;
+  height: rem-calc(40);
+}
