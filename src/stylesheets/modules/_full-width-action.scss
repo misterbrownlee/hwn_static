@@ -1,0 +1,23 @@
+.full-width-action-content {
+  margin-top: rem-calc(30);
+}
+
+.full-width-action-title {
+  text-align: center;
+}
+
+.full-width-action-text {
+  padding-left: rem-calc(20);
+}
+
+@media #{$medium-up} {
+  .full-width-action-title {
+    margin-top: rem-calc(10);
+  }
+  .full-width-action-text {
+    padding-left: rem-calc(35);
+  }
+  .full-width-action-action .action-link {
+    float: left;
+  }
+}
